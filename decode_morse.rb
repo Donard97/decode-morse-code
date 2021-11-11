@@ -42,6 +42,7 @@ def decode_word(str)
   end
   arr.join
 end
+
 def decode(str)
   word = ''
   str.strip.tr('/', ' ').split('   ').each do |n|
